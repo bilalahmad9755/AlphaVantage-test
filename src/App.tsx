@@ -14,9 +14,6 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-      <div className="flex items-center">
-          <h1 className="text-xl font-bold">Currency Exchange</h1>
-        </div>
         <CurrencyForm onSubmit={(formData)=>{handleSubmit(formData)}}/>
         <Metadata metadata={exchangeResponse?.['Meta Data']}/>
         <CurrencyList exchangeData={exchangeResponse?.['Time Series FX (Daily)']} />
