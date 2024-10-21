@@ -624,7 +624,7 @@ export const getExchangeData = async (params: ICurrencySelect) => {
         "1. open": "1.08354",
         "2. high": "1.08826",
         "3. low": "1.08116",
-        "4. close": "1.08354",
+        "4. close": "1.08355",
       },
     },
   };
